@@ -33,7 +33,7 @@ body a:hover{
 }
 /*-- top-nav --*/  
 .top-nav {
-    background: #ec407a;
+    background: #0B8DD5;
 }
 .nav > li {
     display: inline-block;
@@ -50,7 +50,7 @@ ul.nav.navbar li a {
     font-family: 'Text Me One', sans-serif;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active{ 
-	color:#ec407a;
+	color:#0B8DD5;
 	background:transparent;
 	outline:none;
 } 
@@ -284,10 +284,10 @@ p {
 .experience-left {
     float: left;
     width: 30%;
-    background: #ec407a;
+    background: #0B8DD5;
     text-align: center;
     padding: 2em 0;
-    border: 2px solid #ec407a;
+    border: 2px solid #0B8DD5;
 	-webkit-transition: .5s all;
 	-moz-transition: .5s all;
 	transition: .5s all;
@@ -297,7 +297,7 @@ p {
 .experience-right {
     float: right;
     width: 70%;
-    border: 1px solid #ec407a;
+    border: 1px solid #0B8DD5;
 	padding: 1.5em;
 }
 .experience-left h3 {
@@ -440,7 +440,7 @@ p {
 	display: block;
 	width: 0;
 	height:2px;
-	background:#ec407a;
+	background:#0B8DD5;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -453,7 +453,7 @@ p {
 }
 .styled-input input:focus ~ label, .styled-input input:valid ~ label,.styled-input textarea:focus ~ label ,.styled-input textarea:valid ~ label{
     font-size: 1.1em;
-    color: #ec407a;
+    color: #0B8DD5;
     top: -1.3em;
     -webkit-transition: all 0.125s;
 	-moz-transition: all 0.125s; 
@@ -478,8 +478,8 @@ p {
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #ec407a;
-    border: solid 1px #ec407a; 
+    background: #0B8DD5;
+    border: solid 1px #0B8DD5; 
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
 	-o-border-radius: 3px;
@@ -645,7 +645,7 @@ p.agile-br {
     border: none;
     box-shadow: none;
     position: absolute;
-    background: #ec407a;
+    background: #0B8DD5;
     width: 100%;
     z-index: 9;
 }

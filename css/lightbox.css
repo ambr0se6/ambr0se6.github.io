@@ -8,9 +8,9 @@ body:after {
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: #ec407a;
+    background-color: #0B8DD5;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-    opacity: 0.96;
+    opacity: 0.00;
     display: none;
 } 
 .lightbox {
