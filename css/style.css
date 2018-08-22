@@ -95,10 +95,10 @@ ul.nav.navbar li a.w3ls-icon:hover {
 /*-- //top-nav --*/
 /*-- banner --*/  
 .video {
-	background:url(../images/cv.jpg)no-repeat;
+	background:url(../images/techNet.jpg)no-repeat;
     background-position:0px 0px;
 	text-align: left;
-	min-height: 100%;
+    min-height: 100%;
 	background-size:cover;
 }
 .banner-text {
@@ -354,7 +354,7 @@ p {
 	width: 100%;
 }
 .gallery-w3ls-hover .view-caption {
-	background-color: rgba(236, 64, 122, 0.85);
+	background-color: rgba(11, 142, 213, 0);
 	border: 5px solid #fff;
 	bottom: 0;
 	color: #fff;
