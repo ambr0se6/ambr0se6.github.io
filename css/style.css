@@ -95,11 +95,12 @@ ul.nav.navbar li a.w3ls-icon:hover {
 /*-- //top-nav --*/
 /*-- banner --*/  
 .video {
-	background:url(../images/OrganicLines.jpg)no-repeat;
+	background:url(../images/OrganicLines.jpg)repeat;
     background-position:0px 0px;
 	text-align: left;
     min-height: 100%;
-	background-size:cover;
+    background-size:cover;
+    background-repeat: repeat-y
 }
 .banner-text {
     margin: 22em 0 10em;
