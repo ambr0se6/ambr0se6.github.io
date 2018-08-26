@@ -174,7 +174,7 @@ h4.modal-title {
     color: #fff;
 }
 .about h3 span {
-    color: #f3286c;
+    color: #28f3c4;
 }
 .about h4 {
     font-size: 1.2em;
@@ -183,7 +183,7 @@ h4.modal-title {
 }
 
 .about-left img {
-    border: 5px solid #1dadd3;
+    border: 5px solid #28f3c4;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
@@ -263,7 +263,7 @@ p {
     color: #fff;
     margin-bottom: 0.6em;
     font-family: 'Roboto Condensed', sans-serif;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     font-weight: 300;
     letter-spacing: 2px;
 }
