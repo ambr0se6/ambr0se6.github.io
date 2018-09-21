@@ -930,6 +930,12 @@ p.agile-br {
     padding: .5em 3em; 
     font-size: 0.9em;
 }
+.spotify {
+    border-radius: 5px; 
+    width: 800px; 
+    overflow: hidden; 
+    justify-content: center;
+}
 
 }
 /*-- //responsive-design --*/
