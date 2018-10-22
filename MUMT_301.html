@@ -64,6 +64,7 @@
 						<li><a href="#" data-toggle="modal" data-target="#monthlymix" class="w3ls-hover"><span data-letters="Monthly Mix">Monthly Mix</span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#links" class="w3ls-hover"><span data-letters="Links">Links</span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#favmusician" class="w3ls-hover"><span data-letters="Favourite Musician">Favourite Musician</span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#musictable" class="w3ls-hover"><span data-letters="MST">MST</span></a></li>
 					</ul>
 					<div class="clearfix"> </div>
 				</div>
@@ -224,6 +225,403 @@
 		</div>
 	</div>
 	<!-- //modal-links -->
+
+	<!-- modal musictable -->
+	<div class="modal fade modal-musictable" id="musictable" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Compare Compression Algorithms</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="limiter">
+						<div class="container-table100">
+							<div class="wrap-table100">
+								<div class="table100">
+									<table>
+										<thead>
+											<tr class="table-head">
+												<th class="column1">Filename</th>
+												<th class="column2">Compression Algorithm</th>
+												<th class="column3">Bit-Rate</th>
+												<th class="column4">Original Size</th>
+												<th class="column5">Compressed Size</th>
+												<th class="column6">Compression Ratio</th>
+												<th class="column7">Original Audio</th>
+												<th class="column8">Compressed Audio</th>
+												<th class="column9">Residual Audio</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">MP3</td>
+													<td class="column3">96kbps</td>
+													<td class="column4">34000</td>
+													<td class="column5">2300</td>
+													<td class="column6">.068</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_mp3_96kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_mp3_96kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">MP3</td>
+													<td class="column3">128kbps</td>
+													<td class="column4">34000</td>
+													<td class="column5">3100</td>
+													<td class="column6">.091</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_mp3_128kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_mp3_128kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">MP3</td>
+													<td class="column3">192kbps</td>
+													<td class="column4">34000</td>
+													<td class="column5">4600</td>
+													<td class="column6">.135</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_mp3_192kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_mp3_192kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">MP3</td>
+													<td class="column3">320kbps</td>
+													<td class="column4">34000</td>
+													<td class="column5">7700</td>
+													<td class="column6">.226</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_mp3_320kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_mp3_320kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">Vorbis</td>
+													<td class="column3">Low</td>
+													<td class="column4">34000</td>
+													<td class="column5">1600</td>
+													<td class="column6">.047</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ogg_low.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ogg_low_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">Vorbis</td>
+													<td class="column3">Low-Mid</td>
+													<td class="column4">34000</td>
+													<td class="column5">2800</td>
+													<td class="column6">.082</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ogg_low-mid.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ogg_low-mid_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">Vorbis</td>
+													<td class="column3">Mid-High</td>
+													<td class="column4">34000</td>
+													<td class="column5">5700</td>
+													<td class="column6">.168</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ogg_mid-high.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ogg_mid-high_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">Vorbis</td>
+													<td class="column3">High</td>
+													<td class="column4">34000</td>
+													<td class="column5">11300</td>
+													<td class="column6">.332</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ogg_high.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ogg_high_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">AC3</td>
+													<td class="column3">96kbps</td>
+													<td class="column4">34000</td>
+													<td class="column5">2300</td>
+													<td class="column6">.068</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ac3_96kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ac3_96kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">AC3</td>
+													<td class="column3">128kbps</td>
+													<td class="column4">34000</td>
+													<td class="column5">3100</td>
+													<td class="column6">.091</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ac3_128kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ac3_128kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">AC3</td>
+													<td class="column3">192kbps</td>
+													<td class="column4">34000</td>
+													<td class="column5">4600</td>
+													<td class="column6">.135</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ac3_192kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ac3_192kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">AAC</td>
+													<td class="column3">320kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">7700</td>
+													<td class="column6">.226</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ac3_320kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_ac3_320kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">M4A</td>
+													<td class="column3">Low</td>
+													<td class="column4">34000</td>
+													<td class="column5">4700</td>
+													<td class="column6">.138</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_m4a_low.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_m4a_low_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">M4A</td>
+													<td class="column3">Low-Mid</td>
+													<td class="column4">34000</td>
+													<td class="column5">4700</td>
+													<td class="column6">.138</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_m4a_low-mid.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_m4a_low-mid_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">M4A</td>
+													<td class="column3">Mid-High</td>
+													<td class="column4">34000</td>
+													<td class="column5">4700</td>
+													<td class="column6">.138</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_m4a_mid-high.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_m4a_mid-high_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Vanilla</td>
+													<td class="column2">M4A</td>
+													<td class="column3">High</td>
+													<td class="column4">34000</td>
+													<td class="column5">4700</td>
+													<td class="column6">.138</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_m4a_high.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/vanilla_m4a_high_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">MP3</td>
+													<td class="column3">96kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">1700</td>
+													<td class="column6">.069</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_96kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_96kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">MP3</td>
+													<td class="column3">128kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">2200</td>
+													<td class="column6">.090</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_128kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_128kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">MP3</td>
+													<td class="column3">192kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">3300</td>
+													<td class="column6">.135</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_192kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_192kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">MP3</td>
+													<td class="column3">320kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">5500</td>
+													<td class="column6">.225</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_320kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_320kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">Vorbis</td>
+													<td class="column3">Low</td>
+													<td class="column4">24400</td>
+													<td class="column5">911</td>
+													<td class="column6">.037</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ogg_low.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ogg_low_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">Vorbis</td>
+													<td class="column3">Low-Mid</td>
+													<td class="column4">24400</td>
+													<td class="column5">1700</td>
+													<td class="column6">.069</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ogg_low-mid.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ogg_low-mid_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">Vorbis</td>
+													<td class="column3">Mid-High</td>
+													<td class="column4">24400</td>
+													<td class="column5">3200</td>
+													<td class="column6">.131</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ogg_mid-high.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ogg_mid-high_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">Vorbis</td>
+													<td class="column3">High</td>
+													<td class="column4">24400</td>
+													<td class="column5">6900</td>
+													<td class="column6">.283</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_high.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_mp3_high_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">AC3</td>
+													<td class="column3">96kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">1700</td>
+													<td class="column6">.069</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ac3_96kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ac3_96kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">AC3</td>
+													<td class="column3">128kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">2200</td>
+													<td class="column6">.090</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ac3_128kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ac3_128kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">AC3</td>
+													<td class="column3">192kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">3300</td>
+													<td class="column6">.135</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ac3_192kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ac3_192kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">AAC</td>
+													<td class="column3">320kbps</td>
+													<td class="column4">24400</td>
+													<td class="column5">5500</td>
+													<td class="column6">.225</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ac3_320kbps.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_ac3_320kbps_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">M4A</td>
+													<td class="column3">Low</td>
+													<td class="column4">24400</td>
+													<td class="column5">3400</td>
+													<td class="column6">.139</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_m4a_low.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_m4a_low_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">M4A</td>
+													<td class="column3">Low-Mid</td>
+													<td class="column4">24400</td>
+													<td class="column5">3400</td>
+													<td class="column6">.139</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_m4a_low-mid.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_m4a_low-mid_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">M4A</td>
+													<td class="column3">Mid-High</td>
+													<td class="column4">24400</td>
+													<td class="column5">3400</td>
+													<td class="column6">.139</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_m4a_mid-high.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_m4a_mid-high_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>
+												<tr>
+													<td class="column1">Chopin - Scherzo No.2, Op.31</td>
+													<td class="column2">M4A</td>
+													<td class="column3">High</td>
+													<td class="column4">24400</td>
+													<td class="column5">3400</td>
+													<td class="column6">.139</td>
+													<td class="column7"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_.wav" target="_blank">Original Audio</a></td>
+													<td class="column8"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_m4a_high.wav" target="_blank">Compressed Audio</a></td>
+													<td class="column9"><a href="http://132.206.14.130/rburgett/assignment4audio/chopin_scherzo_2_31_m4a_high_rez.wav" target="_blank">Residual Audio</a></td>
+												</tr>		
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal-musictable-->
+
 	<!-- modal-favmusician -->
 	<div class="modal fade modal-experience" id="favmusician" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
@@ -313,6 +711,7 @@
 		</div>
 	</div>
 	<!-- //modal-favmusician  -->
+
 
 	<!-- footer -->
 	<!-- //footer --> 
