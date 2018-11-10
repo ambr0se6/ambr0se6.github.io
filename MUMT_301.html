@@ -39,7 +39,8 @@
 <link rel="stylesheet" href="css/lightbox.css"> 
 <!-- //Custom Theme files -->
 <!-- js -->
-<script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/musicbrainz.js"></script>
 <!-- //js -->
 <!-- web-fonts -->
 <link href='//fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
@@ -59,13 +60,14 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<div class="menu">
 					<ul class="nav navbar"> 
-						<li><a href="index.html" class="w3ls-hover"><span data-letters="Home">Home</span></a></li>
+						<!--li><a href="index.html" class="w3ls-hover"><span data-letters="Home">Home</span></a></li-->
 						<li><a href="#" data-toggle="modal" data-target="#about" class="w3ls-hover"><span data-letters="About">About</span></a></li>
-						<li><a href="#" data-toggle="modal" data-target="#monthlymix" class="w3ls-hover"><span data-letters="Monthly Mix">Monthly Mix</span></a></li>
+						<!--li><a href="#" data-toggle="modal" data-target="#monthlymix" class="w3ls-hover"><span data-letters="Monthly Mix">Monthly Mix</span></a></li-->
 						<li><a href="#" data-toggle="modal" data-target="#links" class="w3ls-hover"><span data-letters="Links">Links</span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#favmusician" class="w3ls-hover"><span data-letters="Favourite Musician">Favourite Musician</span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#musictable" class="w3ls-hover"><span data-letters="MST">MST</span></a></li>
 						<li><a href="spotifyPresentation.html" class="w3ls-hover"><span data-letters="Presentation">Presentation</span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#apicall" class="w3ls-hover"><span data-letters="API-Call">API-Call</span></a></li>
 					</ul>
 					<div class="clearfix"> </div>
 				</div>
@@ -79,6 +81,15 @@
 		<h4>Music and the Internet</h4> 
 		<h6>MUMT 301</h6>
 	</div> 
+
+	<div class="panelMB">
+		<form class='apicall__form' method='post' target>
+			<h3 class='apicall__form-header'>Enter Artist's Name</h3><br>
+			<input  id='artistname' type="text" placeholder="<Artist Name Here>"/><br><br>
+			<input onclick='apicall__function()'type="button" value="Submit"/>
+		</form>
+	</div>
+
 	<div id="particles-js"></div>
 	<!-- //panel -->
 	<!-- scripts -->
@@ -617,11 +628,29 @@
 			</div>
 		</div>
 	</div>
+	<!-- //modal-musictable-->
+
+	<!-- modal-apicall -->
+	<div class="modal fade modal-apicall" id="apicall" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">MusicBrainz API Latest Search Result</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="apicall"> 
+						<div class="bar-grids">
+							<h3 id='api__artist_result'></h3>
+							<h3 id='api__arid_result'></h3>
+							<h3 id='api__country_result'></h3>
+						</div>
+					</div>
 				</div> 
 			</div>
 		</div>
 	</div>
-	<!-- //modal-musictable-->
+	<!-- //modal-apicall-->
 
 	<!-- modal-favmusician -->
 	<div class="modal fade modal-experience" id="favmusician" tabindex="-1" role="dialog">
@@ -713,13 +742,12 @@
 	</div>
 	<!-- //modal-favmusician  -->
 
-
 	<!-- footer -->
 	<!-- //footer --> 
 	
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>

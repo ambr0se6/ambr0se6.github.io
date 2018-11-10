@@ -121,6 +121,21 @@ canvas {
     z-index: 100;
 }
 
+.panelMB{
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+    height: 160px;
+    background: #eee;
+    top: 40%;
+    right: 15%;
+    margin: -110px 0 0 -100px;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
 /*-- //banner --*/  
 
 /*-- modal-basic --*/
@@ -663,6 +678,19 @@ tr td:hover { background: #666; color: #FFF; }
 
 /*-- //musictable --*/
 
+/*-- API-Call --*/
+.apicall{
+    display: block;
+    align-content: center;
+    color: #fff;
+}
+.apicall__form-header{
+    color: #000000;
+}
+.apicall__form{
+    margin: auto;
+}
+/*-- //API-Call --*/
 
  /*-- gallery --*/ 
 .gallery-row {
