@@ -40,7 +40,7 @@
 <!-- //Custom Theme files -->
 <!-- js -->
 <script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/helper.js"></script>
+<script src="js/getSimilarArtists.js"></script>
 <!-- //js -->
 <!-- web-fonts -->
 <link href='//fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
@@ -84,9 +84,10 @@
 
 	<div class="panelMB">
 		<form class='apicall__form' id='queryForm'>
-			<h3 class='apicall__form-header'>Enter Artist's Name</h3><br>
+			<h3 class='apicall__form-header'>Enter Artist's Name</h3>
+			<h6> press Submit then click Recommendations</h4><br>
 			<input  id='artistName' type="text" placeholder="<Artist Name Here>"/><br><br>
-			<input onclick='queryCall()'type="button" value="Submit"/>
+			<input onclick='mainCall()'type="button" value="Submit"/>
 		</form>
 	</div>
 
@@ -641,9 +642,7 @@
 				<div class="modal-body modal-spa">
 					<div class="apicall"> 
 						<div class="bar-grids">
-							<h3 id='api__arid_result'></h3>
-							<h3 id='api__country_result'></h3>
-							<h2 id='retrievedBio'></h2>
+							<h2 id='similarArtists'></h2>
 						</div>
 					</div>
 				</div> 
@@ -663,7 +662,7 @@
 				<div class="modal-body modal-spa">
 					<div class="favmusician">  
 						<div class="favmusician-grids">
-							<div class="col-md-4 favmusician-leftr ">
+							<div class="col-md-4 favmusician-leftr">
 							<img src="images/MAX/MAX_PressPhoto.jpg" class="img-responsive" alt=""/>
 						</div>
 						<div class="col-md-8 favmusician-right wthree">
