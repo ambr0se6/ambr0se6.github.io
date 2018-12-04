@@ -1,0 +1,53 @@
+<!-- modal-education -->
+	<div class="modal fade modal-education" id="education" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header w3layouts">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">My Qualification</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="experience">  
+						<div class="experience-grids">
+							<div class="experience-left">
+								<h3>2014-2018<span></span> </h3>
+								<h5>McGill University</h5>
+								<h5>Bachelor of Arts</h5>
+							</div>
+							<div class="experience-right">
+								<h4>Major in Software Engineering</h4>
+								<!--h4>Minor in Musical Application of Technology</h4-->
+								<p><b><u>Key Courses</u></b></p>
+								<p>Foundations of Programming</p>
+								<p>Introduction to Software Systems</p>
+								<p>Introductionto COmptuer Systems</p>
+								<p>Algorithms and Data Structures</p>
+								<p>Introduction to Computer Systems</p>
+								<p>Programming Languages and Paradigms</p>
+								<p>Introduction to C++</p>
+								<p>Sofrware Engineering Project</p>
+								<p>Concurrent Programming</p>
+								<p>Robotics and Intelligent Systems</p>
+								<p>Database Systems</p>
+								<p>Artificial Intelligence</p>
+								<p>Applied Machine Learning</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div> 
+						<!--div class="experience-grids experience-grids-btm">
+							<div class="experience-left">
+								<h3>2009<span>(3 Years Course)</span></h3>
+								<h5> University Name</h5>
+							</div>
+							<div class="experience-right">
+								<h4>Diploma in Design</h4>
+								<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div--> 
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal-education -->

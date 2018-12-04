@@ -64,9 +64,10 @@
 						<li><a href="#" data-toggle="modal" data-target="#skill" class="w3ls-hover"><span data-letters="Tech. Skills">Tech. Skills</span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#pskill" class="w3ls-hover"><span data-letters="Prof. Skills">Prof. Skills</span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#experience" class="w3ls-hover"><span data-letters="Experience">Experience </span></a></li>
-						<li><a href="#" data-toggle="modal" data-target="#education" class="w3ls-hover"><span data-letters="Education">Education </span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#mumt306" class="w3ls-hover"><span data-letters="MUMT 306">MUMT 306 </span></a></li>
+						<!--<li><a href="#" data-toggle="modal" data-target="#education" class="w3ls-hover"><span data-letters="Education">Education </span></a></li>-->
 						<!--li><a href="#" data-toggle="modal" data-target="#work" class="w3ls-hover"><span data-letters="Work">Work</span></a></li-->
-						<li><a href="MUMT_301.html" class="w3ls-hover"><span data-letters="MUMT-301">MUMT-301</span></a></li>
+						<li><a href="MUMT_301.html" class="w3ls-hover"><span data-letters="MUMT 301">MUMT 301</span></a></li> 
 						<!-- <li><a href="#" data-toggle="modal" data-target="#contact" class="w3ls-hover"><span data-letters="Contact">Contact </span></a></li> -->
 					</ul>
 					<div class="clearfix"> </div>
@@ -383,38 +384,42 @@
 	</div>
 	<!-- //modal-experience -->
 	<!-- modal-education -->
-	<div class="modal fade modal-education" id="education" tabindex="-1" role="dialog">
+	<div class="modal fade modal-education" id="mumt306" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content"> 
 				<div class="modal-header w3layouts">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title">My Qualification</h4>
+					<h4 class="modal-title">MUMT 306 Final Project</h4>
 				</div>
 				<div class="modal-body modal-spa">
 					<div class="experience">  
 						<div class="experience-grids">
 							<div class="experience-left">
-								<h3>2014-2018<span></span> </h3>
-								<h5>McGill University</h5>
-								<h5>Bachelor of Arts</h5>
+								<h3>Video to MIDI<span></span> </h3>
+								<h5 data-target="#objectives">Objectives</h5>
+								<h5>Methodologies</h5>
+								<h5>Results</h5>
 							</div>
 							<div class="experience-right">
-								<h4>Major in Software Engineering</h4>
-								<!--h4>Minor in Musical Application of Technology</h4-->
-								<p><b><u>Key Courses</u></b></p>
-								<p>Foundations of Programming</p>
-								<p>Introduction to Software Systems</p>
-								<p>Introductionto COmptuer Systems</p>
-								<p>Algorithms and Data Structures</p>
-								<p>Introduction to Computer Systems</p>
-								<p>Programming Languages and Paradigms</p>
-								<p>Introduction to C++</p>
-								<p>Sofrware Engineering Project</p>
-								<p>Concurrent Programming</p>
-								<p>Robotics and Intelligent Systems</p>
-								<p>Database Systems</p>
-								<p>Artificial Intelligence</p>
-								<p>Applied Machine Learning</p>
+								<h4>Objectives</h4>
+								<p>1. Read the data from the Video.</p>
+								<p>2. Extract the video's RGB components</p>
+								<p>3. Average each RGB component to represent different data bytes.</p>
+								<p>4. Come up with a method for representing each MIDI message.</p>
+								<p>5. Have the video converted into a sequence of random MIDI messages.</p>
+								<p>6. Be able to playback the video with the MIDI sequence.</p>
+								<p>7. Be able to adjust settings of the video to further change the MIDI sequences created.</p>
+								<br><h4>Methodologies</h4>
+								<p>A. I used Jitter to extract the video's in MAX.</p>
+								<p>B. I used patcher encapsulation to organize the main patch.</p>
+								<p>C. I encapsulated the process where the sequence of MIDI messages are read.</p>
+								<p>D. For the status byte I modulate the Red value by 5 to decide which MIDI message is sent.</p>
+								<p>E. For both the data bytes I modulate the value by 128 to guarantee a readable data byte.</p>
+								<p>F. For the sequence to make sense in terms of timing I have a counter to keep record of the order of MIDI messages.</p>
+								<br><h4>Results</h4>
+								<p>R1. The results of the project are a succesful Video to MIDI sequence.</p>
+								<p>R2. The sequence is unique for each run of the MAX patch as when averaging the RGB values they can change depending on the timing of the system.</p>
+								<p>R3. Program Changes make the sequence appear random at every single run instance but the note on's and note off's are exactly the same.</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div> 
